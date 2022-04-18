@@ -52,3 +52,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = alfonso.ancarola.py@gmail.com
+	name = Alfonso Ancarola
