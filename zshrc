@@ -1,4 +1,9 @@
 ZSH=$HOME/.oh-my-zsh
+# Customize to your needs ...
+export PATH=$HOME/.rbenv/bin:/usr/local/bin:$HOME/.bin:$PATH
+
+# load rbenv automatically
+eval "$(rbenv init - zsh)"
 
 # You can change the theme with another one from https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 ZSH_THEME="robbyrussell"
@@ -69,3 +74,14 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc' ]; then . '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc' ]; then . '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'; fi
+
+export PYTHONPATH="/Users/alfens/code/Alfens/data-challenges/04-Decision-Science:$PYTHONPATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+export PATH="$PATH:/Users/alfens/development/flutter/bin"
