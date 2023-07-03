@@ -7,3 +7,5 @@ type -a pyenv > /dev/null && eval "$(pyenv init --path)"
 # The original version is saved in .zprofile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:${PATH}"
 export PATH
+
+eval "$(/opt/homebrew/bin/brew shellenv)"

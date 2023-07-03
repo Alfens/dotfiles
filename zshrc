@@ -85,3 +85,5 @@ export PYTHONPATH="/Users/alfens/code/Alfens/data-challenges/04-Decision-Science
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 export PATH="$PATH:/Users/alfens/development/flutter/bin"
+eval "$(direnv hook zsh)"
+eval "$(direnv hook zsh)"
