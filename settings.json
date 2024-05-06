@@ -77,7 +77,6 @@
     "workbench.startupEditor": "newUntitledFile",
     "editor.inlineSuggest.enabled": true,
     "workbench.editor.enablePreview": false,
-    "workbench.editor.untitled.hint": "hidden",
     "kite.showWelcomeNotificationOnStartup": false,
     "workbench.editor.empty.hint": "hidden"
 }
